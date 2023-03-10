@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #626262;
+}
+
+/* logo and menu option starts from here */
+header {
+    width: 100%;
+    
+   
+    
+}
+
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 90%;
+   
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.menu {
+    margin-top: 10px;
+    width: 65%;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    margin: 0 50px;
+    padding: 5px 0px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+
+    
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+
+/* logo and menu option ends here */
+/* banner section starts from here */
+.banner{}
+.banner-content{}
+.banner-content img{
+    width: 100%;
+}
+
+/* banner section ends here */
+
+/* getaway section starts from here */
+.getaway{
+    padding: 70px 0;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.getaway-content{}
+.c-light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 14px;
+    font-weight: 300px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+
+}
+.c-title{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+.c-text{
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+/* getaway section ends here */
+
+/* blog section starts from here */
+.blog{
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+.blog-content{
+   
+    overflow: hidden;
+}
+/* card 1 starts from here */
+.card1{
+    width: 47%;
+    float: left;
+    padding-bottom: 60px;
+   
+}
+.card1:nth-child(even){
+    margin-left: 6%;
+    
+}
+.card1-img{
+    margin-bottom: 30px;
+}
+.card1-img img{
+    width: 100%;
+}
+.headline{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 14px;
+    font-weight: 300px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.blog-title{
+    font-size: 30px;
+    font-weight: 400px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.blog-para{
+    line-height: 25px;
+}
+/* blog section ends here */
+
+/* newsletter section starts */
+.newsletter{
+    min-height: 290px;
+    background-color: #f0f0f0;
+padding: 70px;
+  
+}
+.signup{
+text-align: center;
+}
+.s_h1{
+    padding-top:0;
+    padding-bottom:60px ;
+
+}
+.s_form{
+ width: 410px;
+ 
+ margin: 0 auto;
+ position: relative;
+}
+.s_form input{
+font-family: 'Playfair display', serif;
+font-size: 16px;
+color: #626262;
+width: 400px;
+height: 40px;
+border: none;
+color: #626262;
+border-bottom: 1px solid #000000;
+background-color: transparent;
+padding-right: 40px;
+padding-left: 5px;
+}
+.s_form input:focus{
+ outline: 0;
+}
+.s_form button{
+position: absolute;
+background-color: transparent;
+border: none;
+cursor: pointer;
+right: 10px;
+bottom: 5px;
+
+}
+.s_form button:focus{
+    outline: 0;
+   }
+s.form button img{
+
+}
+/* newsletter section ends */
+
+/* blog 2 section starts  */
+
+
+
+.button{
+    margin: 130px 0;
+    text-align: center;
+}
+.button button{
+    width: 165px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+}
+
+/* blog2 section ends */
+
+/* footer section starts from here */
+footer{
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
+.terms{
+   padding-left: 80px;
+    float: left;
+}
+.terms ul{
+    list-style-type: none;
+}
+.terms ul li{
+    margin-right: 20px;
+    float: left;
+    color: black;
+
+}
+.terms ul li a{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    text-decoration:  none;
+    color: #333333;
+}
+.social{
+   
+    float: right;
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    margin-right: 20px;
+    float: left;
+}
+.social ul li a{
+    text-decoration:  none;
+}
+.social ul li span{
+font-family:'Playfair Display', serif; 
+font-weight: bold;color: #333333;
+}
+.social ul li:last-child{
+    margin: 0;
+}
+/* footer section ends here */
+
+
+
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
